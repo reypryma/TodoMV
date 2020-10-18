@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Profile App</string>
+    <string name="app_todo">Todo App</string>
+
+    <string name="login_title">Login</string>
+    app_name
+    <string name="username">Username</string>
+    <string name="email_address">Email</string>
+    <string name="profile_title">Profile</string>
+
+    <string name="default_value">u0020</string>
+
+    <!-- General -->
+    <string name="edited"><![CDATA[Edited: <b>"%1$s"</b>]]></string>
+    <string name="created"><![CDATA[Created: <b>"%1$s"</b>]]></string>
+    <string name="no_todo">No To.Do\'s, try adding a few! :)</string>
+    <string name="completed">Completed</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="description">Description</string>
+    <string name="title">Title</string>
+
+</resources>
