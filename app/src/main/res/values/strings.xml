@@ -1,14 +1,25 @@
 <resources>
-    <string name="app_name">Profile App</string>
-    <string name="app_todo">Todo App</string>
+    <string name="app_name">Todo App</string>
 
     <string name="login_title">Login</string>
-    app_name
     <string name="username">Username</string>
     <string name="email_address">Email</string>
     <string name="profile_title">Profile</string>
 
     <string name="default_value">u0020</string>
+
+
+    <!-- Activities titles -->
+    <string name="title_activity_todo">Add To.Do</string>
+    <string name="title_activity_todo_edit">Edit To.Do</string>
+    <string name="title_activity_about">About</string>
+
+    <!-- Actions -->
+    <string name="action_about">About</string>
+    <string name="action_discard">Discard To.Do</string>
+    <string name="action_delete">Delete To.Do</string>
+
+
 
     <!-- General -->
     <string name="edited"><![CDATA[Edited: <b>"%1$s"</b>]]></string>

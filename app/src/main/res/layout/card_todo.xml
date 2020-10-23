@@ -20,50 +20,53 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="?attr/selectableItemBackground"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:theme="@style/DeepOcean">
 
             <CheckBox
+                android:id="@+id/completed"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/completed"
                 android:layout_gravity="end"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
                 android:clickable="false"
-                android:focusableInTouchMode="false"
-                android:focusable="false" />
+                android:focusable="false"
+                android:focusableInTouchMode="false" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:id="@+id/title"
-                android:textSize="16sp"
-                android:layout_marginStart="16dp"
-                android:layout_marginEnd="50dp"
-                android:textColor="@color/myText"
-                android:layout_marginTop="-28dp" />
-
-            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="-28dp"
+                android:layout_marginEnd="50dp"
+                android:backgroundTint="@color/darkColorAccent"
+                android:textColor="@color/myPrimary"
+                android:textSize="16sp" />
+
+            <TextView
                 android:id="@+id/description"
-                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="16dp"
+                android:backgroundTint="@color/myPrimary"
                 android:maxLines="5"
                 android:textColor="@color/myTextLight"
-                android:layout_marginRight="16dp"
-                android:layout_marginTop="5dp" />
+                android:textSize="14sp" />
 
             <TextView
+                android:id="@+id/edited"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/edited"
                 android:layout_gravity="end"
+                android:layout_marginTop="10dp"
                 android:layout_marginEnd="16dp"
-                android:textIsSelectable="false"
-                android:textSize="12sp"
                 android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp" />
+                android:textIsSelectable="false"
+                android:textSize="12sp" />
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 </RelativeLayout>

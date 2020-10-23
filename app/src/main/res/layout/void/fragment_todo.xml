@@ -30,7 +30,9 @@
                 android:textSize="20sp"
                 android:hint="@string/title"
                 android:layout_marginEnd="15sp"
-                android:singleLine="true" />
+                android:singleLine="true"
+                android:autofillHints="TODO"
+                android:inputType="text" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -41,7 +43,9 @@
                 android:textSize="18sp"
                 android:hint="@string/description"
                 android:layout_marginEnd="15dp"
-                android:background="@null" />
+                android:background="@null"
+                android:autofillHints="I am doing"
+                android:inputType="text" />
 
             <CheckBox
                 android:layout_width="wrap_content"
@@ -60,11 +64,11 @@
                 android:layout_marginTop="20dp"
                 android:textSize="12sp"
                 android:layout_marginEnd="10dp"
-                android:text="@string/edited"
                 android:textIsSelectable="false"
                 android:textColor="@color/darkColorPrimary"
                 android:layout_marginBottom="20dp" />
         </LinearLayout>
     </ScrollView>
-
 </RelativeLayout>
+
+    <!--android:text="@string/edited"-->

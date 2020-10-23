@@ -7,6 +7,14 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- Toolbar theme -->
+    <style name="ToolbarTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:textColorPrimary">@color/design_default_color_primary_dark</item>
+        <item name="actionMenuTextColor">@color/myTextLight</item>
+        <item name="android:textColorSecondary">@color/myLightBackground</item>
+    </style>
+
+
     <!-- My Theme -->
     <style name="MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/myPrimary</item>
